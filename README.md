@@ -19,6 +19,8 @@ This program also requires Python 3.8 or higher, and basic Python libraries (Pan
 [3]: https://github.com/cjhutto/vaderSentiment "Title"
 
 ### Using StockSentiment
-In its current form, the program retrieves Tweets, and is intended to run by specifying a search version (general or username). The program will ask the user for this input upon initialization and then ask for further required inputs. 
+In its current form, the program retrieves Tweets, and is intended to run by specifying a search version (unpaired general, unpaired username, paired general, and paired username). The program will ask the user for this input upon initialization and then ask for further required inputs.
 
-Note that currently, the program is designed to search for tweets mentioning a company (keyword) + the ticker for that *same company*. Soon I will update to add an additional search method in which keyword and ticker are unrelated (i.e., “overvalued” and “QQQ” as the two search parameters). 
+Unpaired search: the company name and ticker should be the same. This means if your company input is "Tesla", your ticker input should be "TSLA". That same ticker input will also be used for scraping prices. 
+
+Paired search: the company name and ticker should be different. This search format allows for more general inquiries. For example, if the keyword is "overvalued" and the ticker is "QQQ". As in the unpiared search, this same ticker will be used for scraping prices. 
