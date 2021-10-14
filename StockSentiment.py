@@ -18,7 +18,7 @@ if pair_function_choice == 'paired':
     if type_function_choice == 'general':
         paired_general_search()
         
-    elif type_function_choice = 'username':
+    elif type_function_choice == 'username':
         paired_username_search()
 
 elif pair_function_choice == 'unpaired':
