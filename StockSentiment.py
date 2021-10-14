@@ -31,5 +31,5 @@ elif pair_function_choice == 'unpaired':
     if type_function_choice == 'general':
         unpaired_general_search()
         
-    elif type_function_choice = 'username':
+    elif type_function_choice == 'username':
         unpaired_username_search()
